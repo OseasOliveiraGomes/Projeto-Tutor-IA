@@ -1,0 +1,13 @@
+Smoke tests do JAR alternativo: 8/8 aprovados.
+Todos os processos encerrados por comandos normais; timeout de 60 s por processo.
+Configuração preservada: True.
+CSV ausente: cwd vazio no backup, sem mover/excluir bases reais e sem criar arquivos no fixture.
+
+zero_initial: APROVADO (exit=0)
+zero_during_switch: APROVADO (exit=0)
+semantic_sair: APROVADO (exit=0)
+invalid_choices: APROVADO (exit=0)
+developer_status: APROVADO (exit=0)
+noninteractive_social: APROVADO (exit=0)
+social_switch_session: APROVADO (exit=0)
+missing_bases_real_fixture: APROVADO (exit=0)

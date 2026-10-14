@@ -1,0 +1,11 @@
+{
+  "chunking_ativo" : "recursivo",
+  "modelo_llm" : "sylph-unopar",
+  "modelo_embeddings" : "nomic-embed-text",
+  "ollama_url" : "http://127.0.0.1:11434",
+  "top_k" : 8,
+  "debug_rag" : false,
+  "expansao_paginas" : 0,
+  "min_similaridade" : 0.35,
+  "limiar_semantico" : 0.66
+}

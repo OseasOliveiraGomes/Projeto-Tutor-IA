@@ -1,0 +1,129 @@
+{
+  "jar": "C:\\Users\\cs081\\Downloads\\Sylph_UNOPAR_Java_SP21\\SYLPH-RECUPERADA\\target\\menu-chunking\\sylph-unopar-java-1.0.0.jar",
+  "timeout_seconds_each": 60,
+  "passed": 8,
+  "total": 8,
+  "config_unchanged": true,
+  "config_sha256": "d5225d414e6536d8b5dbf8fd7d0e393ba2b325bbae5fec68810d23e641a82e8a",
+  "results": [
+    {
+      "case": "zero_initial",
+      "exitcode": 0,
+      "passed": true,
+      "checks": {
+        "exitcode_zero": true,
+        "stderr_empty": true,
+        "no_rag_citations": true,
+        "no_failure": true,
+        "menu_once": true,
+        "no_selected_method": true,
+        "no_conversation": true,
+        "ignores_rest": true
+      }
+    },
+    {
+      "case": "zero_during_switch",
+      "exitcode": 0,
+      "passed": true,
+      "checks": {
+        "exitcode_zero": true,
+        "stderr_empty": true,
+        "no_rag_citations": true,
+        "no_failure": true,
+        "menu_twice": true,
+        "recursive_selected": true,
+        "semantic_not_selected": true,
+        "ignores_rest": true
+      }
+    },
+    {
+      "case": "semantic_sair",
+      "exitcode": 0,
+      "passed": true,
+      "checks": {
+        "exitcode_zero": true,
+        "stderr_empty": true,
+        "no_rag_citations": true,
+        "no_failure": true,
+        "semantic_selected": true,
+        "semantic_prompt": true,
+        "ignores_rest": true
+      }
+    },
+    {
+      "case": "invalid_choices",
+      "exitcode": 0,
+      "passed": true,
+      "checks": {
+        "exitcode_zero": true,
+        "stderr_empty": true,
+        "no_rag_citations": true,
+        "no_failure": true,
+        "invalid_reported_twice": true,
+        "no_conversation": true
+      }
+    },
+    {
+      "case": "developer_status",
+      "exitcode": 0,
+      "passed": true,
+      "checks": {
+        "exitcode_zero": true,
+        "stderr_empty": true,
+        "no_rag_citations": true,
+        "no_failure": true,
+        "developer_banner": true,
+        "no_menu": true,
+        "saved_status": true,
+        "developer_prompt": true
+      }
+    },
+    {
+      "case": "noninteractive_social",
+      "exitcode": 0,
+      "passed": true,
+      "checks": {
+        "exitcode_zero": true,
+        "stderr_empty": true,
+        "no_rag_citations": true,
+        "no_failure": true,
+        "no_menu": true,
+        "local_greeting": true
+      }
+    },
+    {
+      "case": "social_switch_session",
+      "exitcode": 0,
+      "passed": true,
+      "checks": {
+        "exitcode_zero": true,
+        "stderr_empty": true,
+        "no_rag_citations": true,
+        "no_failure": true,
+        "menu_twice": true,
+        "semantic_selected": true,
+        "recursive_selected": true,
+        "ordered_selection": true,
+        "local_greeting": true,
+        "local_thanks": true,
+        "semantic_prompt": true,
+        "recursive_prompt": true
+      }
+    },
+    {
+      "case": "missing_bases_real_fixture",
+      "exitcode": 0,
+      "passed": true,
+      "checks": {
+        "exitcode_zero": true,
+        "recursive_missing_reported": true,
+        "semantic_missing_reported": true,
+        "no_selected_method": true,
+        "no_conversation": true,
+        "no_created_files": true,
+        "no_rag_citations": true,
+        "no_failure": true
+      }
+    }
+  ]
+}

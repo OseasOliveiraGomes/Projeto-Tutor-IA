@@ -1,0 +1,7 @@
+{
+  "version":"0.2.0",
+  "configurations":[
+    {"type":"java","name":"Sylph - terminal","request":"launch","mainClass":"br.com.sylph.SylphApplication","console":"integratedTerminal","projectName":"sylph-unopar-java"},
+    {"type":"java","name":"Sylph DEV - terminal","request":"launch","mainClass":"br.com.sylph.SylphApplication","args":"dev","console":"integratedTerminal","projectName":"sylph-unopar-java"}
+  ]
+}

@@ -1,0 +1,11 @@
+/target*/
+/.idea/
+/.settings/
+/.classpath
+/.project
+*.iml
+/dados/base_*.csv
+/testes/resultados*.csv
+
+.m2/
+/tmp/

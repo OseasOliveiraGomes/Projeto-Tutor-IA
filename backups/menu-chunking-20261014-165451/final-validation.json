@@ -1,0 +1,22 @@
+{
+  "changedExisting": [
+    "src\\test\\java\\br\\com\\sylph\\service\\DevTerminalTest.java",
+    "src\\main\\java\\br\\com\\sylph\\service\\RagService.java",
+    "src\\main\\java\\br\\com\\sylph\\service\\DevTerminal.java"
+  ],
+  "addedSource": [
+    "src\\test\\java\\br\\com\\sylph\\service\\ChunkingMenuTest.java",
+    "src\\test\\java\\br\\com\\sylph\\service\\RagServiceSessionTest.java"
+  ],
+  "tests": 212,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "configAndDataPreserved": true,
+  "artifact": "target/sylph-unopar-java-1.0.0.jar",
+  "artifactSHA256": "032D035C45E1E94584A39AB290EDC95392E7F0BBB583BCE864FFEE8D38EA0292",
+  "standardPackageSuccess": true,
+  "standardJarSmokeTests": 2,
+  "finalMavenPackageTests": 212,
+  "allOtherBaselineFilesPreserved": true
+}

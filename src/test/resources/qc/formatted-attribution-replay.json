@@ -1,0 +1,67 @@
+﻿{
+    "description":  "Replay HTTP hermético do fluxo real RAG. A resposta histórica e a primeira auditoria são transcrições do artefato indicado; variantes adicionais são sintéticas. Não se afirma que o log da ocorrência mais recente tenha sido recebido.",
+    "historical_origin":  {
+                              "path":  "resultados_sp21/20261014_020740_335/recursivo_06.json",
+                              "sha256":  "70CF0DA1B10079E1F710668313F60017ED6BA3D954E470EB79C30380AE9728DB",
+                              "record_id":  "recursivo_06",
+                              "initial_answer":  "1. Para enviar a declaração de dispensa do estágio não obrigatório pelo sistema Colaborar, o aluno deve acessar o menu \u003e dga/secretaria \u003e estágio \u003e solicitação de dispensa de estágio remunerado [Fonte: Manual Estágio Obrigatório_Polo-20262.pdf | Página: 34].  \n\n2. Os formatos de arquivo aceitos são PDF, JPG, JPEG e PNG [Fonte: Manual Estágio Obrigatório_Polo-20262.pdf | Página: 34].",
+                              "first_audit":  {
+                                                  "claims":  [
+                                                                 {
+                                                                     "id":  1,
+                                                                     "supported":  true,
+                                                                     "reason":  "A unidade descreve o caminho no sistema Colaborar para enviar a declaração de dispensa do estágio não obrigatório, com base na página citada.",
+                                                                     "quotes":  [
+                                                                                    {
+                                                                                        "documento":  "Manual Estágio Obrigatório_Polo-20262.pdf",
+                                                                                        "pagina":  34,
+                                                                                        "texto":  "O envio é realizado através do sistema Colaborar em: menu \u003e dga/secretaria \u003e estágio \u003e solicitação de dispensa de estágio remunerado."
+                                                                                    }
+                                                                                ]
+                                                                 },
+                                                                 {
+                                                                     "id":  2,
+                                                                     "supported":  true,
+                                                                     "reason":  "A unidade menciona os formatos de arquivo aceitos, que estão explicitamente listados na página citada.",
+                                                                     "quotes":  [
+                                                                                    {
+                                                                                        "documento":  "Manual Estágio Obrigatório_Polo-20262.pdf",
+                                                                                        "pagina":  34,
+                                                                                        "texto":  "ATENÇÃO! Os arquivos somente poderão ser enviados no formato PDF, JPG, JPEG e PNG;"
+                                                                                    }
+                                                                                ]
+                                                                 }
+                                                             ],
+                                                  "missing":  [
+
+                                                              ]
+                                              },
+                              "source":  {
+                                             "documento":  "Manual Estágio Obrigatório_Polo-20262.pdf",
+                                             "pagina":  34,
+                                             "trecho":  "DECLARAÇÃO DE DISPENSA\nO envio é realizado através\ndo sistema Colaborar em:\nmenu \u003e dga/secretaria \u003e\nestágio \u003e solicitação de\ndispensa de estágio\nremunerado.\nPreencha os dados de\nprojeto, nome do aluno ou\nmatrícula, selecione a\ndisciplina do estágio\nobrigatório e remunerado e\ninsira o arquivo no campo\nindicado.\nATENÇÃO! Os arquivos somente poderão ser enviados no formato PDF, JPG, JPEG e PNG; Devem conter\n34 todas a informações, devidamente assinado e legível (sem rasuras)."
+                                         },
+                              "question":  "Como faço para enviar a declaração de dispensa do estágio não obrigatório pelo sistema Colaborar? Quais formatos de arquivo são aceitos?"
+                          },
+    "user_statement_literal":  "O aluno é responsável por enviar a declaração de dispensa pelo sistema Colaborar.",
+    "channel":  "O envio é realizado através do sistema Colaborar em: menu \u003e dga/secretaria \u003e estágio \u003e solicitação de dispensa de estágio remunerado.",
+    "data":  "Preencha os dados de projeto, nome do aluno ou matrícula, selecione a disciplina do estágio obrigatório e remunerado e insira o arquivo no campo indicado.",
+    "formats":  "Os arquivos somente poderão ser enviados no formato PDF, JPG, JPEG e PNG;",
+    "synthetic_cases":  [
+                            {
+                                "id":  "literal_user_statement_mixed_unit",
+                                "origin":  "Frase literal informada pelo usuário; contexto adicional e citação construídos para regressão.",
+                                "template":  "O aluno é responsável por enviar a declaração de dispensa pelo sistema Colaborar. {{CHANNEL}} {{DATA}} {{FORMATS}}{{CITATION}}"
+                            },
+                            {
+                                "id":  "markdown_two_colons_mixed_unit",
+                                "origin":  "Variante sintética com Markdown e dois-pontos antes e depois da atribuição.",
+                                "template":  "**Responsável pelo envio:** O aluno é responsável por enviar a declaração de dispensa pelo sistema Colaborar: {{CHANNEL}} {{DATA}} {{FORMATS}}{{CITATION}}"
+                            },
+                            {
+                                "id":  "passive_markdown_mixed_unit",
+                                "origin":  "Variante sintética em voz passiva com Markdown e uma citação para informações apoiadas e não apoiadas.",
+                                "template":  "- **Procedimento:** A declaração de dispensa deve ser enviada pelo aluno pelo sistema Colaborar. {{CHANNEL}} {{DATA}} {{FORMATS}}{{CITATION}}"
+                            }
+                        ]
+}

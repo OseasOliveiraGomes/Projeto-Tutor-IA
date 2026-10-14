@@ -1,0 +1,210 @@
+﻿[
+    {
+        "path":  "src\\test\\resources\\qc\\formatted-attribution-replay.json",
+        "sha256":  "A781F0FC7401967BC9A4A32CBED3ADC199EED4A8E539B9AC3542EDBA2A9D8581"
+    },
+    {
+        "path":  "src\\main\\resources\\application.properties",
+        "sha256":  "20C29A24B779BA273D43AF89FA007733E2C4D28FBD5752D91C48504AAE7EAB5F"
+    },
+    {
+        "path":  "src\\test\\java\\br\\com\\sylph\\SylphApplicationTest.java",
+        "sha256":  "12EFBC64FE82A067DEB193EC88F7A39A312C625CE20D6D6395015C88E799FD14"
+    },
+    {
+        "path":  "src\\main\\java\\br\\com\\sylph\\SylphApplication.java",
+        "sha256":  "46E255F955802323B91DDF63030CF75DB83E0DA32CBF2E47FFC3CC8BE2142DC6"
+    },
+    {
+        "path":  "src\\test\\java\\br\\com\\sylph\\service\\VectorMathTest.java",
+        "sha256":  "95680C318689AE81D4241CC50C1073203C453ED57DEC86CD6D25EBF8DB01D1B1"
+    },
+    {
+        "path":  "src\\test\\java\\br\\com\\sylph\\service\\SocialInteractionRoutingTest.java",
+        "sha256":  "D10411E94D37437E3075E2D65BFE2C891B3217B6B6E66E04B8B42A7204E3C061"
+    },
+    {
+        "path":  "src\\test\\java\\br\\com\\sylph\\service\\ResponsibilityRepairIntegrationTest.java",
+        "sha256":  "D339E635EC3B9818BBCE7A95608502E123A6100FFA7C9563C1E0F385F06D67FE"
+    },
+    {
+        "path":  "src\\test\\java\\br\\com\\sylph\\service\\ResponsibilityEvidenceRegressionTest.java",
+        "sha256":  "F98420BE4367FCBDDD3CB9259FCB0BF8F9EC53CCBE090711A157B91981F885FE"
+    },
+    {
+        "path":  "src\\test\\java\\br\\com\\sylph\\service\\RagServiceTest.java",
+        "sha256":  "E1F7106F1BB223D7B613D25CB1522759E93ECE92930173C7EC81573836D3E1B7"
+    },
+    {
+        "path":  "src\\test\\java\\br\\com\\sylph\\service\\PdfPresentationArtifactsTest.java",
+        "sha256":  "0D2E741CBB996C66EF18EF36AEB76B38F71BB043CC1BF70DCAC91F57DCC6D127"
+    },
+    {
+        "path":  "src\\test\\java\\br\\com\\sylph\\service\\PdfMetadataTest.java",
+        "sha256":  "9E885011DB7BB168B26E64271795F7A5A5F7D59C9626DA9B81553D8835EE2D7A"
+    },
+    {
+        "path":  "src\\test\\java\\br\\com\\sylph\\service\\OllamaClientTest.java",
+        "sha256":  "6DAFB51B90E361E21884854F5A57818DD5D9CF68B601FA4E925B194618A953EB"
+    },
+    {
+        "path":  "src\\test\\java\\br\\com\\sylph\\service\\LiveRagDiagnosticTest.java",
+        "sha256":  "39F8656ECCB684D111C9A44DF63981AB35404009BC497502A05C429DF36BD4C1"
+    },
+    {
+        "path":  "src\\test\\java\\br\\com\\sylph\\service\\HybridRetrieverTest.java",
+        "sha256":  "D385FFB8E8F1013F87C85986622B76DA2A88313CD63F903361930F7886C0E669"
+    },
+    {
+        "path":  "src\\test\\java\\br\\com\\sylph\\service\\FormattedAttributionIntegrationTest.java",
+        "sha256":  "17E0EFD195CF8A8A950C98AB1F999AD842E5A4D35F8A5A4EDE006B39C2794A82"
+    },
+    {
+        "path":  "src\\test\\java\\br\\com\\sylph\\service\\FinalPresentationIntegrationTest.java",
+        "sha256":  "954DBA7FA72C1F781C7109A4B1FB708E45873040575C7964B2764B049B411C9A"
+    },
+    {
+        "path":  "src\\test\\java\\br\\com\\sylph\\service\\FinalAnswerPresentationTest.java",
+        "sha256":  "0246C11870FFA4A708128E984FD8D88AFDCBABB22D0EB60333F04D949D78902D"
+    },
+    {
+        "path":  "src\\test\\java\\br\\com\\sylph\\service\\EvidenceRepairRegressionTest.java",
+        "sha256":  "91687EC87EE60D216DADE056C5947C977ED9B9F72020D33CDFA2218922DF06A5"
+    },
+    {
+        "path":  "src\\test\\java\\br\\com\\sylph\\service\\DevTerminalTest.java",
+        "sha256":  "8E4960452C172EB6221AA8A892FCDBCDBE5CEA43C50CFE429A222A914C2895D0"
+    },
+    {
+        "path":  "src\\test\\java\\br\\com\\sylph\\service\\ComparativeCitationRegressionTest.java",
+        "sha256":  "ABB90C512D55DA7CFEF2AA870911A60032D90E50624E17974992E785D7318F2A"
+    },
+    {
+        "path":  "src\\test\\java\\br\\com\\sylph\\service\\ChunkerTest.java",
+        "sha256":  "BAE8A03780686142FA572B2E901ED4D5912F2A0D9D22BFDE40EA6B028B6CE90D"
+    },
+    {
+        "path":  "src\\test\\java\\br\\com\\sylph\\service\\AttributionFormattingRegressionTest.java",
+        "sha256":  "89D1C2480B4AEB9E1C95F462C4E1AF6047F7137EFA3FC1ACCD58C0145F5B2840"
+    },
+    {
+        "path":  "src\\test\\java\\br\\com\\sylph\\service\\AnswerEvidenceTest.java",
+        "sha256":  "A9F2BBF45D15EA55D5492EEEB0AD2325EED5E7E69AC9B7B8AFBEEB6CF37E62F3"
+    },
+    {
+        "path":  "src\\main\\java\\br\\com\\sylph\\service\\VectorMath.java",
+        "sha256":  "C5129C2DF23B7FC168C38C1590FBE7BDFDF641B36DD72F77BD8B53A344A9ED7C"
+    },
+    {
+        "path":  "src\\main\\java\\br\\com\\sylph\\service\\TextChunker.java",
+        "sha256":  "B8310339BD583EC9C79B08C7A6F3F9F71F53C504C9F2A3EF80363A31E29F4DD0"
+    },
+    {
+        "path":  "src\\main\\java\\br\\com\\sylph\\service\\SocialInteraction.java",
+        "sha256":  "78FA8F4224695F8325BDEB2305029A2BEC2CADF50EECBD94FD9A851398295DC6"
+    },
+    {
+        "path":  "src\\main\\java\\br\\com\\sylph\\service\\RagService.java",
+        "sha256":  "09A3FC2AF075DE3B1269558FD554882344E43E244B126A69628ED1D503426CE0"
+    },
+    {
+        "path":  "src\\main\\java\\br\\com\\sylph\\service\\PdfPresentationArtifacts.java",
+        "sha256":  "459F2EB2DC120DC5ED8FB450C43801E91085A6796CC8FE5E2628F7644F70BA0B"
+    },
+    {
+        "path":  "src\\main\\java\\br\\com\\sylph\\service\\PdfPages.java",
+        "sha256":  "AC4EFE4D7B7420CE54D291696433BD99FF4A48823B0AF250C8E90157E8CB9191"
+    },
+    {
+        "path":  "src\\main\\java\\br\\com\\sylph\\service\\OllamaClient.java",
+        "sha256":  "69079D30600DF69572F5B548D4EB4653601AFC27E09E05C52DDE8A621D03DA03"
+    },
+    {
+        "path":  "src\\main\\java\\br\\com\\sylph\\service\\HybridRetriever.java",
+        "sha256":  "F4444C686198152C927CF20F9445FAB937098CF3EF542132071564B03DD6AB00"
+    },
+    {
+        "path":  "src\\main\\java\\br\\com\\sylph\\service\\FinalAnswerPresentation.java",
+        "sha256":  "CB4D7E49641028EA4D3F470E534677FE30382BEDA79FA129750A983F36C64A75"
+    },
+    {
+        "path":  "src\\main\\java\\br\\com\\sylph\\service\\DevTerminal.java",
+        "sha256":  "D9540B219354696CAE1E3E99F5A0FAC6699C1C1F5AD74A2433B361B22190DA28"
+    },
+    {
+        "path":  "src\\main\\java\\br\\com\\sylph\\service\\CsvKnowledgeStore.java",
+        "sha256":  "11F2A06DBC1343777D06ADA0DF9DEC4F3315304944C125DF5AFE33E69FA679A0"
+    },
+    {
+        "path":  "src\\main\\java\\br\\com\\sylph\\service\\BasePreparation.java",
+        "sha256":  "51880EA5F85914516AFEC83C0A7EB55CDBA5297833127CE03AAD77007F3FB3F4"
+    },
+    {
+        "path":  "src\\main\\java\\br\\com\\sylph\\service\\AttributionEvidence.java",
+        "sha256":  "7F9CA09E8DF272C9813A5E750FA29C4DEBCF91A2D53EE51C2A17A777FFAA0638"
+    },
+    {
+        "path":  "src\\main\\java\\br\\com\\sylph\\service\\AnswerEvidence.java",
+        "sha256":  "997385698AFD26501FEBE9C89F3AAAA7A3A12B7F2B44DD9ADF8967BEC9DC1446"
+    },
+    {
+        "path":  "src\\main\\java\\br\\com\\sylph\\config\\SettingsService.java",
+        "sha256":  "CDC49C5F6ECBAB5DB933E233C0842A0F6AAC589ED863B50281945BA52E071F69"
+    },
+    {
+        "path":  "src\\main\\java\\br\\com\\sylph\\config\\ProjectConfig.java",
+        "sha256":  "515BA5312929A071AB5A80603028850554C5FEF7E414F09826B11B769CFED7E6"
+    },
+    {
+        "path":  "src\\main\\java\\br\\com\\sylph\\config\\JsonConfiguration.java",
+        "sha256":  "3D4882BEEFCB41F0A6F48EBA0C812324F82EF7CAF9E86D0DC3CD70AA18BF5E7A"
+    },
+    {
+        "path":  "src\\main\\java\\br\\com\\sylph\\model\\RankedChunk.java",
+        "sha256":  "ABAC35207A6886C0DC71346F78C78FB2F1D30ED8731E5561BC349C4223F15E4B"
+    },
+    {
+        "path":  "src\\main\\java\\br\\com\\sylph\\model\\KnowledgeChunk.java",
+        "sha256":  "FF4CE481D4FE972B6871A8122408E1AB7520A2B7D368D9524DD10CA58E9E6485"
+    },
+    {
+        "path":  "config.json",
+        "sha256":  "D5225D414E6536D8B5DBF8FD7D0E393BA2B325BBAE5FEC68810D23E641A82E8A"
+    },
+    {
+        "path":  "Modelfile",
+        "sha256":  "7A83D4281899BADAA9F47B26F1082D1C6E876E4BD4D06CB969340F10BA5EC8CE"
+    },
+    {
+        "path":  ".gitignore",
+        "sha256":  "E4A283E5A60B879E9A29DAE146884021920A7BBD2527BFA537759965A2D74F4C"
+    },
+    {
+        "path":  "pom.xml",
+        "sha256":  "B737C40F4FB125ADF142309692D0AA8CA3002E76E9E0FC5E4BF8F1C688CE1F00"
+    },
+    {
+        "path":  "README.md",
+        "sha256":  "E3D11B42859131018522E95FB21308473A12D1D1188CE8FA6B74F6F7C09F6FA2"
+    },
+    {
+        "path":  "rodar-terminal.ps1",
+        "sha256":  "9D5482E4EFFD1D563E7EAB54028374042C7C726D70CABD4D941B6ADC68B3DEC8"
+    },
+    {
+        "path":  "rodar-dev.ps1",
+        "sha256":  "2291050440AC82D6C2934264C0345FC69FFA625878148D6F694E90808D71C017"
+    },
+    {
+        "path":  "dados\\base_recursivo.csv",
+        "sha256":  "F77B05F4DC7739AA8541EE017EA2992D561024E6FC003EEFC6807F3CFB19E760"
+    },
+    {
+        "path":  "dados\\base_semantico.csv",
+        "sha256":  "5B33A8110E6EA15C7B72A6A3FBD1DD0A1E31A59183368804ED75F335AEB2AFE0"
+    },
+    {
+        "path":  "dados\\Manual Estagio Obrigatorio UNOPAR 2026-2.pdf",
+        "sha256":  "D1BBCB7C15AA9954EE05D338FDDB521F049804938FEBDD51D58D08CB16742042"
+    }
+]

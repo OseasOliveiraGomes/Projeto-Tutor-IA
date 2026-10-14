@@ -1,0 +1,3 @@
+Esta pasta receberá 'resultados_testes.csv' após você executar o comando 'testar' no terminal DEV.
+As perguntas NÃO são pré-cadastradas. O CSV apenas registra os testes realizados livremente.
+Os campos de avaliação ficam PENDENTE até você verificar as respostas no manual real.

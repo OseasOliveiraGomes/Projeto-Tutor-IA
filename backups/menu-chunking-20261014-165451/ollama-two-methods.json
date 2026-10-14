@@ -1,0 +1,27 @@
+{
+  "question": "Qual é o prazo para cadastrar uma empresa?",
+  "exitCode": 0,
+  "seconds": 101.3,
+  "sameProcess": true,
+  "methods": {
+    "recursivo": {
+      "citations": [
+        "Manual Estágio Obrigatório_Polo-20262.pdf | Página: 4"
+      ],
+      "sourceLines": [
+        "Manual Estágio Obrigatório_Polo-20262.pdf pág. 4"
+      ],
+      "technicalFailure": false
+    },
+    "semantico": {
+      "citations": [
+        "Manual Estágio Obrigatório_Polo-20262.pdf | Página: 4"
+      ],
+      "sourceLines": [
+        "Manual Estágio Obrigatório_Polo-20262.pdf pág. 4"
+      ],
+      "technicalFailure": false
+    }
+  },
+  "protectedFilesUnchanged": true
+}
